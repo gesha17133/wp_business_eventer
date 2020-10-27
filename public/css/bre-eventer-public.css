@@ -1,0 +1,395 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+/**/
+.bre_event_title{
+    font-size: 25px;
+    color: #000;
+    border-bottom: 1px solid gray;
+}
+.old_events_container{
+    max-width:1170px;
+    margin: 0 auto;
+}
+.container_single_post{
+    max-width:1170px;
+    margin: 0 auto;
+}
+.block_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.bre_header{
+    width:1170px;
+}
+button#load-more{
+    width: 100%;
+}
+
+
+.shor_post_block{
+    background-color: burlywood;
+}
+.bre_title{
+    display: inline-block;
+    margin: 0 auto;
+}
+.title-bre-wrappet{
+    text-align: center;
+}
+.event_date_p{
+    font-size: 16px;
+}
+.bre_event_title{
+    margin: 0px 0 20px;
+}
+.events_posts_block{
+    width: 65%;
+    margin-bottom: 30px;
+}
+.date_event{
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+.events_widget_calendar{
+    width: 30%;
+}
+.the_bre_img_wrapper{
+    max-width: 400px;
+    width: 100%;
+}
+.single_image_wrapper img{
+    height: 400px;
+    display: block;	
+	width: 90%;
+	object-fit: cover;
+}
+.the_bre_img_wrapper img{
+    display: block;	
+	width: 100%;
+	object-fit: cover;
+	height: 230px;
+}
+.left_post_bre_content{
+    font-size: 16px;
+}
+.content{
+    padding:20px;
+}
+.item_bre_block{
+    background: lightgrey;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+   
+}
+.bre-public-importance:hover{
+    color:#fff;
+}
+.link_bre_post{
+    border: 1px solid #D44457;
+    padding: 8px 14px;
+    margin: 20px 0;
+    display: block;
+    color: #D44457;
+    text-align: center;
+    transition: all 1s;
+}
+.link_bre_post:hover{
+    border: 1px solid #D44457;
+    padding: 8px 14px;
+    margin: 20px 0;
+    display: block;
+    background: coral;
+    text-align: center;
+    transition: cubic-bezier(.55,1.91,.62,-0.9);
+}
+.the_preview{
+    padding: 15px 0;
+    font-size: 16px ;
+    margin-top: 20px;
+    border-top: 1px solid #000;
+}
+.the_preview p{
+    font-size: 16px ;
+}
+.bre_title{
+ text-align: center;
+}
+.comment-author.vcard {
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+aside.single-event-post .comment_block{
+    list-style-type:none;
+    padding: 0;
+}
+.comment-author.vcard{
+    align-content: center;
+}
+img.avatar{
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+b.fn{
+    align-self: middle;
+}
+.like-continer{
+    display: block;
+    width: 150px;
+    position: absolute;
+    background: #fff;
+    top: -50px;
+    left: 10px;
+    border-radius: 50px;
+    display: flex;
+}
+.contnet_area{
+    position: relative;
+}
+.comment-content p{
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.comment-body{
+    margin:10px 0;
+    color: #000000;
+}
+.comment-body a{
+    color: #000000;
+}
+.container.old_events_container{
+    display: flex;
+    justify-content: space-between;
+}
+.single_wrapper_for_content{
+    width: 65%;
+}
+.bre_single_wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width:1170px;
+    margin: 0 auto;
+}
+.single-event-post{
+    max-width: 30%;
+}
+
+.bre-public-importance{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.bre_importance_descr{
+    font-size: 16px;
+    padding: 5px;
+    text-transform: uppercase;
+    line-height: 13px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    background-color: darksalmon;
+    display: inline-block;
+}
+
+svg#Capa_1{
+    width: 20px;
+    height: auto;
+    margin: 10px;
+}
+svg#Capa_1 path{ 
+    fill: lightgrey;
+    transition: all 0.5s;
+}
+svg#Capa_1.post-like path:hover{
+    cursor: pointer;
+    fill: red;
+    cursor: pointer;
+}
+/* svg#Capa_1.nopost-like path{
+    fill: red;
+    cursor: pointer;
+} */
+/* svg#Capa_1.heart.clicked path{
+    cursor: pointer;
+    fill: red;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+} */
+.butto-liker{
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+.butto-liker span{
+    color: #000;
+    text-transform: uppercase;
+}
+.single_bre-post_img{
+    width: 100%;
+    height: 450px;
+    display: block;
+    object-fit: cover;
+}
+.the_header_in_shorc_code{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: gray;
+    z-index: 5;
+    position: absolute;
+
+}
+.like-continer{
+    display: flex;
+    align-items: center;
+}
+.shor_post_slide{
+    position: relative;
+    margin:20px;   
+}
+.liked{
+    fill: red;
+}
+
+svg#Capa_1.post-like.liked path,svg#Capa_1.post-like.clicked path{
+    cursor: pointer;
+    fill: red;
+    cursor: pointer;
+}
+
+body {
+  background: #20262E;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+#app {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+
+/*calendarik*/  
+
+* {
+    box-sizing: border-box;
+}
+
+div.calendar {
+    width: 400px;
+    min-height: 300px;
+    border: 1px solid #666;
+    background-color: #222;
+    
+}
+div.wrapper_calendar{
+    position: sticky;
+    top: 100px;
+}
+.headline {
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    color: #555;
+    border-bottom: 1px solid #bbb;
+}
+.headline .divider {
+    color: #ad0;
+}
+.headline .year {
+    color: #bbb;
+}
+.headline .click-left, .headline .click-right {
+    cursor: pointer;
+    position: absolute;
+}
+.headline .click-left {
+    left: 5px;
+}
+.headline .click-right {
+    right: 5px;
+}
+.weekdays, .days {
+    text-align: center;
+    margin: 0 auto;
+}
+.weekdays * {
+    width: 40px;
+    margin: 10px 6px;
+    color: #bbb;
+    display: inline-block;
+}
+a.date {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #222;
+    margin: 2px 8px;
+    color: #bbb;
+}
+.date.out-of-scope {
+    color: #555;
+}
+.date.selected {
+    color: #ad0;
+    border: 1px solid #ad0;
+}
+/*archive*/
+.events_archive_block{
+    width: 67%;
+    padding-top: 53px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.archive_permalink{
+    display: block;
+    padding: 12px 20px;
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    color: #ad0;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #ad0;
+}
+.archive_events_widget_calendar{
+    width: 30%;
+}
+.the_post_archive_title{
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #bbb;
+    border-bottom: 1px solid #bbb;
+}
+.archive_img_wrap img{
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #bbb;
+    margin-bottom: 13px;   
+}
+.post-card-archive{
+    width: 350px;
+    background-color: #222;
+    padding: 20px 10px; 
+    margin: 20px;
+}
