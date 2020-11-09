@@ -1,0 +1,45 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.selection_posts{
+    min-width: 300px;
+    min-height: 200px; 
+}
+.persons_list{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.persons_list th{
+    font-size: 18px;
+    border: 1px solid #000;
+}
+.data_person td{
+    text-align: center;
+}
+#add_person_row{
+    background: #007cba;
+    color:  #007cba;
+    border-color: #007cba;
+    margin-top: 18px;
+}
+
+#remove_person_row{
+    color: #e14d43;
+    border-color: #e14d43;
+}
+.cancel_button{
+    margin-top: 18px;
+}
+#add_person_row, #remove_person_row{
+    background: #f3f5f6;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    padding: 0 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+}
